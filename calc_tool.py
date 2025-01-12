@@ -6,11 +6,11 @@ def calculator():
     print("4: divide")
     print("5: べき乗")
 
-    choice = input("Enter 1-4")
+    choice = input("Enter 1-4:")
 
     if choice in ['1','2','3','4','5']:
-        num1 = float(input("1つ目の数値を入力"))
-        num2 = float(input("2つ目の数値を入力"))
+        num1 = float(input("1つ目の数値を入力:"))
+        num2 = float(input("2つ目の数値を入力:"))
 
         if choice == '1':
             print(f"結果: {num1 + num2}")
